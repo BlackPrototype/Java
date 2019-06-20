@@ -1,0 +1,94 @@
+/*a szövegszerkesztő kinézete*/
+body{
+    background-image: url('../pics/sunset-3689760_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+div#new_title{
+    margin: 0 auto;
+    width: 798px;
+    height: 110px;
+}
+div#textEditor{
+    position: absolute;
+    margin: 0 auto;
+    width: 800px;
+    height: 550px;
+}
+div#theHeader{
+    padding: 10px;
+    background-color: #f0f8ff;
+    color: white;
+    box-shadow: 5px 0px 3px grey;
+    text-align: center;
+}
+div#richText{
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px grey;
+    height: 50%;
+    width: 798px;
+}
+iframe#theWYSIWYG{
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+}
+div#theHeader > button{
+    color: #3333ff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+div#theHeader > button:hover{
+    background-color: #48d1cc;
+    color: white;
+    transition: all 0.3s linear 0s;
+    padding: 10px 5px;
+}
+
+/*a színválasztó gombok kinézetén egy kis módosítás*/
+input[type="color"]{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 20px;
+    width: 40px;
+}
+/*a használat leírás kinézete*/
+.closebtn {
+    margin-left: 15px;
+    color: #f0f8ff;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.alert {
+    padding: 20px;
+    background-color: #48d1cc;
+    color: black;
+    text-align: left;
+    border-radius: 3px;
+    box-shadow: 5px 5px 4px grey;
+}
+.postForm{
+    position: fixed;
+    top: 8%;
+    left: 20%;
+    /*margin: 0 auto; ezt kiváltom a felső 3 sorral*/
+    padding: 5px;
+    width: 800px;
+    height: 80%;
+    background-color: #bfd8d9;
+    border-radius: 5px;
+}

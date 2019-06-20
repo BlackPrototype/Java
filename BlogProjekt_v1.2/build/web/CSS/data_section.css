@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019.05.15., 20:58:20
+    Author     : Prototype_
+*/
+body{
+    background-image: url('../pics/sunset-3689760_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.dataSection{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    /*margin: 0 auto; ezt kiváltom a felső 3 sorral*/
+    padding: 5px;
+    width: 50%;
+    background-color: #bfd8d9;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px grey;
+}
+.dataSection > .dataForm, .contactForm{
+    margin: 0 auto;
+    width: 90%;
+    background-color: #a4c0f4;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px grey;
+    padding: 10px;
+    font-family: Consolas;
+}
+.dataSection > button{
+    color: black;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%; 
+    text-align: left;
+}
+.dataSection > button:hover{
+    background-color: #48d1cc;
+    color: white;
+    transition: all 0.3s linear 0s;
+    border-radius: 3px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: #f0f8ff;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.dataForm {
+    padding: 20px;
+    background-color: #48d1cc;
+    color: black;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.dataSection > .userDatas{
+    font-family: Consolas;
+    width: 90%;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 3px 20px 20px 20px;
+    background-color: #7d8c9b;
+    border-radius: 5px;
+}
+.picture{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    border: 1px solid black;
+}
+.userPosts{
+    margin: 0 auto;
+    width: 90%;
+}
+.tableDataTitle{
+    display: block;
+    padding: 1px;
+    margin: 1px;
+    font-size: 18pt;
+    background-color: #48d1cc;
+    border-radius: 3px;
+}
+.allPostForm{
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    width: 70%;
+    background-color: #F0F8FF;
+    border-radius: 4px;
+    padding: 10px;
+}
