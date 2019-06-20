@@ -17,3 +17,6 @@ These are the main tasks that you can do with this application.
 The datas are stored in Java built in database in three table. Relations are not used here.
 
 The text editor was made by JavaScript. 
+
+During operation:
+https://youtu.be/IheffnkVgqY
